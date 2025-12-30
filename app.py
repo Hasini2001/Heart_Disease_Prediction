@@ -139,7 +139,7 @@ with tab2:
 
 with tab3:
     import plotly.express as px 
-    data = {'Decision Trees': 80.97, 'Logistic Regression' : 85.86, 'Random Forest': 86.95, 'Support Vector Machine': 84.22 }
+    data = {'Decision Trees': 80.97, 'Logistic Regression' : 85.86, 'Random Forest': 84.23, 'Support Vector Machine': 84.22 }
     models = list(data.keys())
     Accuracy = list(data.values())
 
